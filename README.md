@@ -6,9 +6,10 @@ Make following changes in /etc/hosts on the host system. Use DNS on real system.
 
 
 #Clone Repository  
-git clone https://github.com/basantashrestha/LEMP.git  
-cd LEPP
-docker-compose up -d  
+#git clone https://github.com/basantashrestha/LEPP.git  
+#cd LEPP
+(Note: carefully go into folder like app/vhost-sample, /config/nginx and docker-compose.yml files and make changes to suite your requirement. For example you might want to change the domain name, port number etc. Please check virtual host section below to add virutal host. )
+#docker-compose up -d  
 
 
 #Check on Browser  
